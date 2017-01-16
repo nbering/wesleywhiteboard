@@ -44,7 +44,7 @@ void setup () {
 
   int windowWidth = (int)round((videoWidth*0.7 + videoWidth*0.35) * windowScale);
   int windowHeight = (int) round((videoHeight*0.7) * windowScale);
-  size(windowWidth, windowHeight);
+  size(800, 600);
 
 	video = new Capture(this, videoWidth, videoHeight);
 	//video = new Capture(this, videoWidth, videoHeight, "NAME OF CAMERA", 30);
